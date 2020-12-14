@@ -1,3 +1,9 @@
+DESCRPTION:  
+Here is the beginning frame work to my new portfolio page!  
+There are links to a few of my class projects and websites I've  
+built outside of class. I hope to continue cleaning this up and  
+improving it over theh course of our class.
+
 LINK TO DEPLOYED SITE:    
 https://codykimb.github.io/CodyKimbPortfolio/
 
