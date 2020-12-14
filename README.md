@@ -1,3 +1,9 @@
+LINK TO DEPLOYED SITE:    
+https://codykimb.github.io/CodyKimbPortfolio/
+  
+GIT HUB REPOSITORY:  
+https://github.com/codykimb/CodyKimbPortfolio/
+
 User Story  
 AS AN employer  
 I WANT to view a potential employee's deployed portfolio of work samples  
