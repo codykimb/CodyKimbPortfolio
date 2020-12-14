@@ -12,7 +12,7 @@ https://github.com/codykimb/CodyKimbPortfolio/
 
 SCREENSHOT:
 ![screenshot-1](https://user-images.githubusercontent.com/72325495/102045543-f9ccae80-3d9e-11eb-8b2c-335ad6ed1ffc.png)
-![screenshot-2](https://user-images.githubusercontent.com/72325495/102045570-094bf780-3d9f-11eb-9327-eb08d3e3b363.png)
+![screenshot-2](https://user-images.githubusercontent.com/72325495/102047874-b0329280-3da3-11eb-96cb-853c4b38eb86.png)
 
 User Story  
 AS AN employer  
