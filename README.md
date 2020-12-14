@@ -1,8 +1,12 @@
 LINK TO DEPLOYED SITE:    
 https://codykimb.github.io/CodyKimbPortfolio/
-  
+
 GIT HUB REPOSITORY:  
 https://github.com/codykimb/CodyKimbPortfolio/
+
+SCREENSHOT:
+![Test Image 1](assets/images/screenshot-1.png)
+![Test Image 2](assets/images/screenshot-2.png)
 
 User Story  
 AS AN employer  
