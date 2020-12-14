@@ -1,4 +1,4 @@
-DESCRPTION:  
+DESCRIPTION:  
 Here is the beginning frame work to my new portfolio page!  
 There are links to a few of my class projects and websites I've  
 built outside of class. I hope to continue cleaning this up and  
@@ -20,7 +20,7 @@ I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a   good candidate for an open position  
   
 Acceptance Criteria  
-IVEN I need to sample a potential employee's previous work
+GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
 WHEN I click one of the links in the navigation
