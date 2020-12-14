@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #ffffff;
+    --primary-color: #c0c0c0;
     --secondary-color: #024e76;
     --tertiary-color: #004d13;
 }
@@ -12,6 +12,17 @@ body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
+
+.section-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0px auto 35px auto;
+    width: 50%;
+}
+
 /* HEADER STYLE */
 header {
     padding: 20px 25px;
@@ -79,5 +90,50 @@ header nav ul li a:hover {
     width: 100%;
 }
     /* HERO STLYE END */
+ 
+    /* ABOUT SECTION STYLES */
 
-    
+.about-section {
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--primary-color)
+}
+
+.about-section p {
+    flex-wrap: wrap;
+}
+    /* ABOUT SECTION STYLES END */
+
+    /* WORK SECTION STYLES */
+
+.work-section {
+    padding: 20px;
+    background-color: var(--primary-color)
+}
+    /* WORK SECTION STYLES END */
+
+    /* CONTACT SECTION STYLES */
+
+.contact-section {
+    padding: 20px;
+    background-color: var(--primary-color)
+}
+
+.contact-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-section ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 2vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+    /* CONTACT SECTION STYLES END */
+
+
