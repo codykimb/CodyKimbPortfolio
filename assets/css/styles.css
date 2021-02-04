@@ -57,7 +57,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header nav ul li a:hover {
@@ -149,19 +149,19 @@ header nav ul li a:hover {
  .item-1 {
     grid-column: span 6;
     grid-row: span 6;
-    background-image: url("../../assets/images/run-buddy-bg.jpg");
+    background-image: url("../images/cinema.jpg");
  }
 
  .item-2 {
     grid-column: span 3;
     grid-row: span 3;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/weather-dash.png");
  }
  
  .item-3 {
     grid-column: span 3;
     grid-row: span 3;
-    background-image: url("https://f4.bcbits.com/img/0014733625_20.jpg");
+    background-image: url("../images/work-day-1.png");
  }
  .item-4 {
         grid-column: span 3;
@@ -172,7 +172,7 @@ header nav ul li a:hover {
  .item-5 {
     grid-column: span 3;
     grid-row: span 3;
-    background-image: url("../images/laptop.jpg");
+    background-image: url("https://f4.bcbits.com/img/0014733625_20.jpg");
  }
 
     /* WORK SECTION STYLES END */
