@@ -149,13 +149,13 @@ header nav ul li a:hover {
  .item-1 {
     grid-column: span 6;
     grid-row: span 6;
-    background-image: url("../images/cinema.jpg");
+    background-image: url("../images/now-playing-screenshot.png");
  }
 
  .item-2 {
     grid-column: span 3;
     grid-row: span 3;
-    background-image: url("../images/weather-dash.png");
+    background-image: url("../images/cinema.jpg");
  }
  
  .item-3 {
