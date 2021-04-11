@@ -100,11 +100,6 @@ header nav ul li a:hover {
 
     /* CONTACT SECTION STYLES */
 
-.contact-section {
-    /* padding: 20px; */
-    /* background-color: var(--primary-color) */
-}
-
 .contact-section ul {
     display: flex;
     flex-wrap: wrap;
