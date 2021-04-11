@@ -9,45 +9,22 @@
     --tertiary-color: #004d13;
 }
 body {
-    color: var(--tertiary-color);
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.animate {
-    width: 100%;
-    height: 100vh;
-    color: #fff;
-    background: linear-gradient(-45deg, #000000, #212121, #303030, #1b3421);
-    background-size: 400% 400%;
-    position: relative;
-    animation: change 20s ease-in-out infinite;
+    background-image: url("../images/glass.jpg");
+    background-size: 100%;
 }
 
 .section-title {
-    font-size: 5vw;
-    color: whitesmoke;
-    border-bottom: 3px solid;
+    font-size: 7vw;
+    color: black;
+    text-shadow: 3px 3px #ffffff;
+    border-bottom: 2px dashed;
     padding-bottom: 5px
     px;
     text-align: center;
     margin: 0px auto 35px auto;
-    width: 40%;
-}
-
-.btn {
-    border: 1px solid whitesmoke;
-    border-radius: 10%;
-    background-color: rgba(245, 245, 245, 0);
-    color: whitesmoke;
-    font-size: 30px;
-    margin: 5px;
-    padding: 5px;
-    transition: 1000ms ease;
-}
-.btn:hover {
-    border: 1px solid rgba(245, 245, 245, 0);
-    background-color: whitesmoke;
-    color: black
+    width: 30%;
 }
 
 /* HEADER STYLE */
@@ -69,6 +46,8 @@ header h1 {
 header a {
     text-decoration: none;
     color: whitesmoke;
+    text-shadow: 3px 3px #000000;
+
 }
 header nav  {
 margin: 7px 0px;
@@ -115,7 +94,7 @@ header nav ul li a:hover {
     border: solid 1px whitesmoke;
     border-radius: 10%;
     padding: 2px;
-    margin: 20px;
+    margin: 10px;
 }
     /* HERO STLYE END */
 
@@ -140,17 +119,45 @@ header nav ul li a:hover {
     font-size: 2vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.btn {
+    border: 1px solid whitesmoke;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    transition: 1000ms ease;
+}
+
+.btn:hover {
+    border: 1px solid rgba(245, 245, 245, 0);
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.2);
+}
     /* CONTACT SECTION STYLES END */
  
     /* ABOUT SECTION STYLES */
 
 .about-section {
-    padding: 20px;
+    padding: 10px;
     flex-wrap: wrap;
     align-items: center;
-    margin: auto;
-    width: 80%;
+    margin: 10px auto;
+    width: 75%;
     /* background-color: var(--primary-color) */
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 1000ms ease;
+}
+
+.about-section:hover {
+    border: 1px solid rgba(245, 245, 245, 0);
+    background-color: rgb(0, 0, 0, 1);
+    transform: scale(1.1);
 }
 
 .about-section p {
@@ -178,31 +185,26 @@ header nav ul li a:hover {
 
 .grid-item {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     border: 5px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    font-size: 35px;  
+    font-size: 20px;  
     color: white;
-    opacity: .8;
+    align-items: center;
+    /* opacity: .8; */
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-item:hover {
+    opacity: .7;
+    transition: .5s;
+    transform: scale(1.1);
 }
 
 .grid-item h4 {
     background-color: rgba(0, 0, 0, .5);
     text-align: left;
-}
-
-.grid-item:hover {
-    opacity: 1;
-    transition: .5s;
-}
-
-.grid-item {
-    background-size: cover;
-    background-position: center;
-    justify-content: left;
-    align-items: center;
-    font-size: 20px;
-    opacity: .7;
 }
 
  .item-1 {
@@ -220,7 +222,7 @@ header nav ul li a:hover {
  .item-3 {
     grid-column: span 3;
     grid-row: span 3;
-    background-image: url("../images/work-day-1.png");
+    background-image: url("../images/tech-blog-homepage.png");
  }
  .item-4 {
         grid-column: span 3;
@@ -234,17 +236,10 @@ header nav ul li a:hover {
     background-image: url("https://f4.bcbits.com/img/0014733625_20.jpg");
  }
 
+ .item-6 {
+    grid-column: span 3;
+    grid-row: span 3;
+    background-image: url("../images/work-day-1.png");
+ }
+
     /* WORK SECTION STYLES END */
-
-@keyframes change {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
-
