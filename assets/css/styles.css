@@ -3,28 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-    --primary-color: #c0c0c0;
-    --secondary-color: #024e76;
-    --tertiary-color: #004d13;
-}
+
 body {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../images/glass.jpg");
+    background-image: url("../images/flower-collage-2.JPG");
     background-size: 100%;
 }
 
 .section-title {
     font-size: 7vw;
     color: black;
-    text-shadow: 3px 3px #ffffff;
-    border-bottom: 2px dashed;
-    padding-bottom: 5px
-    px;
+    text-shadow: 3px 3px whitesmoke;
+    background-color: rgba(245, 245, 245, 0.482);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 0px auto 35px auto;
-    width: 30%;
+    width: 40%;
+    transition: 1000ms;
+}
+
+.section-title:hover {
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
+    background-color: rgba(245, 245, 245, 0);
 }
 
 /* HEADER STYLE */
@@ -60,15 +65,17 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a {
+    margin: 5px;
+    border-radius: 2px;
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 2vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 500ms ease-in;
 }
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
+    background-color: whitesmoke;
+    color: black;
     text-shadow: none;
 }
     /* HEADER STYLE END */
